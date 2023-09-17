@@ -6,4 +6,4 @@ Shorts Summary é uma aplicação web para criar resumo de vídeos shorts do You
 - Ai vai criar o conteúdo do vídeo em texto -> Ai vai criar um resumo apartir do texto
 
 - [x] Frontend
-- 
+- [x] Vite Install
