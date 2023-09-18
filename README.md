@@ -25,4 +25,13 @@ o ^ indica que sempre que vai rodar o comando npm vai buscar a ultima versão. s
     // "server": "env YTDL_NO_UPDATE=1 node --watch --no-warnings server/index.js"
 remover alertas
 
+
+
+Por padrão os eventos de submit recarregam a página imediatamente 
+se você quer que isso não aconteça: você deve recuperar o evento e usar preventDefault()
+
+form.addEventListener("submit",(event)=>{
+    event.preventDefault()
+    console.log("Dados Enviados!")
+})
 -->
