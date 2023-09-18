@@ -20,4 +20,9 @@ no arquivo packge.json
 "ytbdl-core": "^4.10.0"
 
 o ^ indica que sempre que vai rodar o comando npm vai buscar a ultima versão. se você que manter a versão fixa você retira o acento.
+
+
+    // "server": "env YTDL_NO_UPDATE=1 node --watch --no-warnings server/index.js"
+remover alertas
+
 -->
