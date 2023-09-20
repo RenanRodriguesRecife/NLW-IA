@@ -31,6 +31,6 @@ form.addEventListener("submit",async (event)=>{
     })
     
     content.textContent = summary.data.result
-    contest.classList.remove("placeholder")
+    content.classList.remove("placeholder")
 })   
 
