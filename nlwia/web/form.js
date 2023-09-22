@@ -9,7 +9,7 @@ form.addEventListener("submit",async (event)=>{
 
 
     event.preventDefault()
-
+    content.classList.add("placeholder")
     const videoURL = input.value;
 
     if(!videoURL.includes("shorts")){
@@ -33,4 +33,3 @@ form.addEventListener("submit",async (event)=>{
     content.textContent = summary.data.result
     content.classList.remove("placeholder")
 })   
-
