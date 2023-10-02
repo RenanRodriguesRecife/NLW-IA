@@ -20,7 +20,7 @@ export async function transcribe(audio){
         console.log("Transcrição finalizada com sucesso")
         return transcription?.text.replace("[Música]","") //a interrogação é para evitar retornar null
     }catch(error){
-
+        console.log("Erro na transcrição",error)
         throw new Error(error)
     }
 }
